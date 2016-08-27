@@ -85,6 +85,10 @@
   "author": "Kairic Cheng",
   "license": "MIT",
   "dependencies": {
+    "express": "~4.2.x",
+    "kerberos": "~0.0.x",
+    "parse": "~1.6.12",
+    "parse-server": "~2.1",
     "babel-cli": "^6.5.1",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
