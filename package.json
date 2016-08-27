@@ -30,7 +30,7 @@
       "env": {
          "NODE_ENV": "production"
       }
-    }
+    },
     "compile": {
       "command": "babel-node bin/compile",
       "env": {
