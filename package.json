@@ -4,7 +4,7 @@
   "description": "OpenSchool webserver",
   "main": "index.js",
   "engines": {
-    "node": ">=4.3",
+    "node": ">=4.2.0",
     "npm": "^3.0.0"
   },
   "scripts": {
