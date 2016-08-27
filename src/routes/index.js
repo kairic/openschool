@@ -1,6 +1,7 @@
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../layouts/CoreLayout/CoreLayout'
 import Home from './Home'
+import Reviews from './Reviews'
 import CounterRoute from './Counter'
 
 /*  Note: Instead of using JSX, we recommend using react-router
@@ -21,7 +22,7 @@ export const createRoutes = (store) => ({
     getChildRoutes (location, cb) {
       require.ensure([], (require) => {
         cb(null, [
-          // Remove imports!
+          require('./Reviews').default(store),
           require('./Counter').default(store)
         ])
       })
