@@ -1,7 +1,3 @@
-Parse.Cloud.define('hello', function(req, res) {
-  res.success('Hi');
-});
-
 Parse.Cloud.define("import", function (request, response) {
   var className = request.params.className;
   var rows = request.params.rows;
