@@ -12,7 +12,7 @@
     "compile": "better-npm-run compile",
     "lint": "eslint src tests server",
     "lint:fix": "npm run lint -- --fix",
-    "start": "better-npm-run start",
+    "start": "better-npm-run start:prod",
     "serve": "better-npm-run start",
     "postinstall": "npm run deploy:prod",
     "dev": "better-npm-run dev",
@@ -85,7 +85,6 @@
   "author": "Kairic Cheng",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.2.x",
     "kerberos": "~0.0.x",
     "parse": "~1.6.12",
     "parse-server": "~2.1",
