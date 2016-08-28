@@ -4,7 +4,6 @@ import classes from './Header.scss'
 
 export const Header = () => (
   <div className={classes.header}>
-    <h1>React Redux Starter Kit</h1>
     <IndexLink to='/' activeClassName={classes.activeRoute}>
       Home
     </IndexLink>
@@ -15,6 +14,15 @@ export const Header = () => (
     {' · '}
     <Link to='/reviews' activeClassName={classes.activeRoute}>
       Reviews
+    </Link>
+    <Link to='/reviews' className={classes.addReview}>
+      Add a review
+    </Link>
+    <Link to='/reviews' className={classes.switchLanguage}>
+      English
+    </Link>
+    <Link to='/reviews' className={classes.signIn}>
+      Sign in
     </Link>
   </div>
 )
