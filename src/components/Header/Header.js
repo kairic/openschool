@@ -4,7 +4,7 @@ import classes from './Header.scss'
 
 export const Header = () => (
   <div className='header'>
-   
+    <h1>Testing</h1>
   </div>
   <div>
     <h1>React Redux Starter Kit</h1>
