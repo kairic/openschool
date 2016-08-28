@@ -9,18 +9,18 @@ import _debug from 'debug'
 import config from '../config'
 import webpackDevMiddleware from './middleware/webpack-dev'
 import webpackHMRMiddleware from './middleware/webpack-hmr'
-import ParseServer from 'parse-server'
+var ParseServer = require('parse-server').ParseServer;
 
 const debug = _debug('app:server')
 const paths = config.utils_paths
 const app = new Koa()
-const api = new ParseServer({
+var api = new ParseServer({
   serverURL: "https://openschool.herokuapp.com/parse",
   databaseURI: process.env.MONGODB_URI,
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID,
   masterKey: process.env.MASTER_KEY
-});
+})
 
 
 // Enable koa-proxy if it has been enabled in the config.
@@ -35,7 +35,7 @@ app.use(convert(historyApiFallback({
   verbose: false
 })))
 
-app.use('/parse', api);
+app.use('/parse', api)
 
 // ------------------------------------
 // Apply Webpack HMR Middleware
