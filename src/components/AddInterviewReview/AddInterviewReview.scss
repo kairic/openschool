@@ -1,0 +1,113 @@
+h4 {
+  font-family: HelveticaNeue-Medium;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 2.61px;
+  padding-top: 2rem;
+}
+
+.os-col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-10px;
+}
+
+.os-media {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.os-media-outer {
+  position: relative;
+  height: 100%;
+}
+
+.os-media-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.os-school-info {
+  font-family: HelveticaNeue-Bold;
+  font-size: 16px;
+  color: #535353;
+  letter-spacing: 0px;
+  line-height: 10px;
+}
+
+.os-school-info2 {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 0px;
+  line-height: 10px;
+}
+
+.os-background {
+  background-color: #f2f2f2;
+  padding-top: 1rem;
+}
+
+.os-subtitle {
+  font-family: HelveticaNeue-Medium;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1.94px;
+  padding-top: 1rem;
+}
+
+.os-question-header {
+  font-family: HelveticaNeue-Bold;
+  font-size: 16px;
+  color: #535353;
+  letter-spacing: 0px;
+}
+
+.os-title-answer {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0px;
+  height: 62px;
+  resize: none;
+}
+
+.os-answer {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0px;
+  resize: none;
+}
+
+.os-interview-questions-answer {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0px;
+  height: 50px;
+  resize: none;
+  vertical-align: middle;
+}
+
+.os-submit-row {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.btn-submit {
+  background: #2A8EB5;
+  border: 1px solid #2A8EB5;
+  border-radius: 5px;
+  font-family: HelveticaNeue-Light;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+  width: 167px;
+  height: 35px;
+}

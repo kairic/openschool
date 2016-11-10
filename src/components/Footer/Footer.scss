@@ -1,0 +1,33 @@
+footer {
+  padding: 3rem 0;
+  font-size: 85%;
+  text-align: center;
+  background-color: #0F171E;
+
+  a {
+    font-weight: 500;
+    color: #55595c;
+
+    &:hover {
+      color: #0275d8;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+}
+
+footer ul {
+  padding-left: 0;
+  margin-bottom: 1rem;
+
+  li {
+    display: inline-block;
+
+    + li {
+      margin-left: 1rem;
+    }
+  }
+}

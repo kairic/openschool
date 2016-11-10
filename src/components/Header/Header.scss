@@ -1,39 +1,85 @@
-.activeRoute {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.header {
-  height: 120px;
-  width: 100%;
-  background-color: rgb(51,51,50);
-}
-
-.signIn {
-  /* Sign in: */
-  font-family: HelveticaNeue-Light;
-  font-size: 14px;
-  color: #FEFEFE;
+.header-popup-line { width:100%; text-align:center; border-bottom: 1px solid #979797; line-height:0.1em; margin:30px 0 30px; }
+.header-popup-line span {
+  background:#fff;
+  padding:0px 10px;
+  font-family: HelveticaNeue-Medium;
+  font-size: 13.58px;
+  color: #6C6969;
   letter-spacing: 1.52px;
-  padding-right: 40px;
-  padding-bottom: 40px;
 }
 
-.addReview{
-  /* Rectangle 5: */
-  border: 1px solid #FFFFFF;
-  border-radius: 5px;
-  /* Add a review: */
-  font-family: HelveticaNeue-Light;
+.header-item {
+  font-family: HelveticaNeue-Medium;
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 1.52px;
 }
 
-.switchLanguage{
-  /* English : */
+.header-item2 {
   font-family: HelveticaNeue-Light;
   font-size: 14px;
   color: #FEFEFE;
   letter-spacing: 1.52px;
+}
+
+.header-navbar-brand,
+.header-navbar-nav li {
+    height: 120px;
+    padding-top: 50px;
+    z-index: 1200;
+}
+
+.facebook-button {
+  background: #384BA4;
+  border-radius: 3px;
+  font-family: HelveticaNeue-Light;
+  font-size: 13.58px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+}
+
+.google-button {
+  background: #A43838;
+  border-radius: 3px;
+  font-family: HelveticaNeue-Light;
+  font-size: 13.58px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+}
+
+.signup-button {
+  background: #448DF8;
+  border-radius: 3px;
+  font-family: HelveticaNeue-Light;
+  font-size: 13.58px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+}
+
+.signup-text {
+  font-family: HelveticaNeue-Medium;
+  font-size: 9.7px;
+  color: #6C6969;
+  letter-spacing: 1.08px;
+}
+
+.form-text {
+  font-family: HelveticaNeue-Light;
+  font-size: 13.58px;
+  color: #979797;
+  letter-spacing: 1.52px;
+}
+
+.forgot-password-text {
+  font-family: HelveticaNeue-Medium;
+  font-size: 9.7px;
+  color: #2A8EB5;
+  letter-spacing: 0.9px;
+}
+
+.no-account-text {
+  font-family: HelveticaNeue-Medium;
+  font-size: 9.7px;
+  color: #6C6969;
+  letter-spacing: 1.08px;
 }

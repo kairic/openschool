@@ -1,0 +1,120 @@
+.btn-write-review {
+  background: #2A8EB5;
+  border: 1px solid #2A8EB5;
+  border-radius: 3px 0px 3px 3px 3px;
+  font-family: HelveticaNeue-Light;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+  width: 155px;
+}
+
+.btn-explore {
+  background: #2A8EB5;
+  border-radius: 5px;
+  font-family: HelveticaNeue-Light;
+  font-size: 14px;
+  color: #FEFEFE;
+  letter-spacing: 1.52px;
+  z-index: 2000;
+  position: relative;
+}
+
+.img-at-top {
+  width: 100%;
+  position: absolute;
+	top: 0px;
+	left: 0px;
+  z-index: 1001;
+  pointer-events: none;
+  height: 500px;
+}
+
+.img-at-bottom {
+  width: 100%;
+  height: 342px;
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.img-at-top-background {
+  background: #646767;
+  padding-top: 3rem;
+}
+
+.text-slogan {
+  font-family: HelveticaNeue-Medium;
+  font-size: 56px;
+  color: #FCFBFB;
+  letter-spacing: 6.09px;
+  z-index: 1002;
+}
+
+.text-sub-slogan {
+  font-family: HelveticaNeue-Light;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 2.61px;
+  z-index: 1002;
+}
+.text-community {
+  font-family: HelveticaNeue-Medium;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 2.61px;
+  padding-top: 2rem;
+}
+
+.text-community-small {
+  font-family: HelveticaNeue-Medium;
+  font-size: 14px;
+  color: #6C6969;
+  letter-spacing: 1.52px;
+  padding-top: 1rem;
+}
+
+.facebook-button {
+  background: #384BA4;
+  border-radius: 3px;
+  font-family: HelveticaNeue-Light;
+  font-size: 13.58px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+}
+
+.google-button {
+  background: #A43838;
+  border-radius: 3px;
+  font-family: HelveticaNeue-Light;
+  font-size: 13.58px;
+  color: #FFFFFF;
+  letter-spacing: 1.52px;
+}
+
+.text-write-review {
+  font-family: HelveticaNeue-Medium;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 2.61px;
+  padding-top: 3rem;
+}
+
+.text-write-review2 {
+  font-family: HelveticaNeue-Medium;
+  font-size: 14px;
+  color: #6C6969;
+  letter-spacing: 1.52px;
+}
+
+.row-with-top-padding {
+  padding-top: 7rem;
+}
+
+.center-btn-toolbar {
+  text-align:center;
+}
+
+.btn-default {
+  display:inline-block;
+}

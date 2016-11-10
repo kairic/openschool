@@ -12,7 +12,7 @@
     "compile": "better-npm-run compile",
     "lint": "eslint src tests server",
     "lint:fix": "npm run lint -- --fix",
-    "start": "better-npm-run start:prod",
+    "start": "better-npm-run start",
     "serve": "better-npm-run start",
     "postinstall": "npm run deploy:prod",
     "dev": "better-npm-run dev",
@@ -28,7 +28,7 @@
     "start:prod": {
       "command": "babel-node bin/server",
       "env": {
-         "NODE_ENV": "production"
+        "NODE_ENV": "production"
       }
     },
     "compile": {
@@ -85,9 +85,6 @@
   "author": "Kairic Cheng",
   "license": "MIT",
   "dependencies": {
-    "kerberos": "~0.0.x",
-    "parse": "~1.6.12",
-    "parse-server": "~2.1",
     "babel-cli": "^6.5.1",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
@@ -110,6 +107,7 @@
     "imports-loader": "^0.6.5",
     "ip": "^1.1.2",
     "json-loader": "^0.5.4",
+    "kerberos": "~0.0.x",
     "koa": "^2.0.0-alpha.3",
     "koa-connect-history-api-fallback": "^0.3.0",
     "koa-convert": "^1.2.0",
@@ -117,6 +115,8 @@
     "koa-static": "^3.0.0",
     "node-sass": "^3.7.0",
     "normalize.css": "^4.1.1",
+    "parse": "~1.6.12",
+    "parse-server": "~2.1",
     "postcss-loader": "^0.9.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",

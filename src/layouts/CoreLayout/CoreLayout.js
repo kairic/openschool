@@ -1,14 +1,13 @@
 import React from 'react'
 import Header from '../../components/Header'
-import classes from './CoreLayout.scss'
+import Footer from '../../components/Footer'
 import '../../styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
-  <div className='container text-center'>
+  <div>
     <Header />
-    <div className={classes.mainContainer}>
-      {children}
-    </div>
+    {children}
+    <Footer />
   </div>
 )
 
